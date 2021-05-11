@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     //res.redirect('')
-    res.redirect('/links')
+    res.redirect('/signin')
 });
 
 module.exports = router;
