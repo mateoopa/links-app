@@ -45,7 +45,7 @@ router.post('/edit/:id', async (req, res) => {
         description
     };
     const links = await pool.query('UPDATE links set ? WHERE id = ?', [editedLink, id]);
-    req.flash("success","Link edited");
+    req.flash("success","Link Edited");
     //req.flash("message", "Incorrect Password");
     res.redirect('/links')
 }));
