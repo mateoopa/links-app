@@ -27,6 +27,7 @@ router.get('/', isLoggedIn, async (req, res) => {
 
 router.get('/delete/:id', isLoggedIn, async (req, res) => {
     const { id } = req.params;
+    console.log(id);
     await pool.query('DELETE FROM links WHERE ID = ?', [id]);
     req.flash("success", "Link Deleted Successfully");
     res.redirect('/links')
