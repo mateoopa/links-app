@@ -1,6 +1,6 @@
-# Project Title
+# Links App
 
-A nice project with a nice description
+Links App is nodejs project where you can save your favorite links under your own user account.
 
 ---
 ## Requirements
@@ -45,22 +45,15 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+    $ git clone https://github.com/mateoopa/links-app
+    $ cd links-app
+    $ npm install
 
-## Configure app
-
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
-
-- A setting;
-- Another setting;
-- One more setting;
 
 ## Running the project
 
-    $ yarn start
+    $ npm start
 
 ## Simple build for production
 
-    $ yarn build
+    $ npm build
